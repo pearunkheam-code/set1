@@ -1,0 +1,80 @@
+body {
+    font-family: 'Khmer OS Battambang', Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9ecefa);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* ប្រអប់ Profile */
+.profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 350px;
+    width: 100%;
+}
+
+/* រូបថត Profile */
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #007bff;
+    margin-bottom: 15px;
+}
+
+/* ឈ្មោះ និងជំនាញ */
+h1 {
+    margin: 10px 0 5px 0;
+    color: #333;
+    font-size: 24px;
+}
+.title {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ប្លុកព័ត៌មានលម្អិត */
+.info-container {
+    text-align: left;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.info-item {
+    margin: 10px 0;
+    color: #555;
+    font-size: 15px;
+}
+
+/* ប៊ូតុង */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Khmer OS Battambang', sans-serif;
+    font-size: 14px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+/* សារបង្ហាញពេលចុចប៊ូតុង */
+.hidden-message {
+    margin-top: 15px;
+    color: #28a745;
+    font-weight: bold;
+    font-size: 14px;
+}
